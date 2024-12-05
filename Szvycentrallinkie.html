@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tab</title>
+    <style>
+        /* Make sure the video covers the entire background */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1; /* Makes sure the video is behind other content */
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+          
+            color: white;
+           
+            font-size: 2rem;
+        }
+        .logo1{
+            transform: scale(0.1);
+          position: fixed;
+          right: 950px;
+          bottom: 160px;  
+           }
+           .links{
+            transform: scale(0.1);
+          position: fixed;
+          right: 1200px;
+          bottom: 500px;  
+           }
+           .bar01{
+            
+          position: fixed;
+         
+           }
+    </style>
+</head>
+<body>
+    <video class="video-background" autoplay loop muted>
+        <source src="backgroundmainwebsite.mp4" type="video/mp4">
+    </video>
+
+    <div class="content">
+
+        <div class="logo1">
+        <a href="main.html">
+            <img src="Chesco logo.png" alt="">
+            </a>
+            
+        </div>
+
+        <div class="links">
+            <a href="Links.html">
+                <img src="links.png" alt="">
+                </a>
+            </div>
+            
+            <br>
+            <br>
+            <br>
+
+            <a href="https://games.global.ssl.fastly.net">   
+                https://games.global.ssl.fastly.net
+        </a>
+        <br>
+
+        <a href="https://sigma.global.ssl.fastly.net">   
+            https://sigma.global.ssl.fastly.net
+    </a>
+    <br>
+
+    <a href="https://thelearningcentral.global.ssl.fastly.net">   
+        https://thelearningcentral.global.ssl.fastly.net
+</a>
+<br>
+</body>
+</html>
+
